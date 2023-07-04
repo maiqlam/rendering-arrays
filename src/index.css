@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,52 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  max-width: 800px;
+  border: 3px solid grey;
+  margin: auto;
+  
+}
+
+h1 {
+  text-align: center;
+  line-height: 0;
+  font-variant: small-caps;
+}
+
+header {
+  border-bottom: 3px solid grey;
+  padding: 1rem;
+}
+
+.profile {
+  padding: 1rem 3rem;
+}
+
+.profile > h2 {
+  font-style: oblique;
+  margin: 0rem 4rem;
+  color: darkcyan;
+  text-align: right;
+}
+
+.profile > p {
+  text-indent: 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.scores {
+  padding: 1rem;
+}
+
+.profScores {
+  line-height: 0;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
